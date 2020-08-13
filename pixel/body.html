@@ -1,0 +1,17 @@
+<script>
+  (function() {
+    var publicKey = "{{settings.publicKey}}";
+    if (!publicKey) {
+      console.error('Warning: No public API key is defined. Please configure it in the apps admin.');
+      return
+    }
+
+    // aplazame.js initialization
+    (window.aplazame = window.aplazame || []).push(function (aplazame) {
+      aplazame.init({
+        public_key: publicKey,
+        sandbox: true
+      })
+    })
+  })()
+</script>
