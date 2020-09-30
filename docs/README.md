@@ -14,7 +14,15 @@ Use this app to display [Aplazame](https://aplazame.com/) widget simulator on yo
 
 ## Configuration
 
-First, [install](https://vtex.io/docs/recipes/development/installing-an-app/) the `aplazame.aplazame-widget` app yn the VTEX account which you are working on.
+First, [install](https://vtex.io/docs/recipes/development/installing-an-app/) the `aplazame.aplazame-widget` app in the VTEX account which you are working on.
+
+Also, you need to add it as peer dependency in the `manifest.json` of your store theme.
+
+```diff
+"peerDependencies": {
++ "aplazame.aplazame-widget": "0.x"
+}
+```
 
 Then, in your VTEX account's admin, open the **App** section and select the Aplazame Widget app configuration. Fill in your *public API key* provided by your store created in [Aplazame's control panel](https://vendors.aplazame.com/) and save your changes.
 
@@ -24,15 +32,15 @@ Add the `aplazame-product-widget` block in your store product template (for exam
 
 ```diff
 "flex-layout.col#right-col": {
-    "props": { ... },
-    "children": [
-      ...
-      "flex-layout.row#buy-button",
-+     "aplazame-product-widget",
-      "availability-subscriber",
-      ...
-    ]
-  }
+  "props": { ... },
+  "children": [
+    ...
+    "flex-layout.row#buy-button",
++   "aplazame-product-widget",
+    "availability-subscriber",
+    ...
+  ]
+}
 ```
 
 <!-- DOCS-IGNORE:start -->
