@@ -1,7 +1,7 @@
 {
   "name": "aplazame-widget",
   "vendor": "aplazame",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "Aplazame Widget",
   "description": "Implements Aplazame widget simulator at product and cart templates.",
   "billingOptions": {
