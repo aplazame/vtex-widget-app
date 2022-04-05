@@ -1524,15 +1524,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.44":
-  version "16.9.48"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.48.tgz#d3387329f070d1b1bc0ff4a54a54ceefd5a8485c"
-  integrity sha512-4ykBVswgYitPGMXFRxJCHkxJDU2rjfU3/zw67f8+dB7sNdVJXsrwqoYxz/stkAucymnEEbRPFmX7Ce5Mc/kJCw==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^3.0.2"
-
-"@types/react@^16.9.19":
+"@types/react@*", "@types/react@^16.9.19", "@types/react@^16.9.44":
   version "16.9.49"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.49.tgz#09db021cf8089aba0cdb12a49f8021a69cce4872"
   integrity sha512-DtLFjSj0OYAdVLBbyjhuV9CdGVHCkHn2R+xr3XkBvK2rS1Y1tkc14XSGjYgm5Fjjr90AxH9tiSzc1pCFMGO06g==
@@ -1583,10 +1575,10 @@
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.0.tgz#8b63ab7f1aa5321248aad5ac890a485656dcea4d"
   integrity sha512-te5lMAWii1uEJ4FwLjzdlbw3+n0FZNOvFXHxQDKeT0dilh7HOzdMzV2TrJVUzq8ep7J4Na8OUYPRLSQkJHAlrg==
 
-"@vtex/test-tools@^3.0.1":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@vtex/test-tools/-/test-tools-3.3.2.tgz#b131653d85f381c82efea12a13d08fc9b1f65c85"
-  integrity sha512-rs0yHIpSlJc5zM6nYSFxWRMyS7k1w4JYyWmD5flNOtMIHiuUkOFrQh84tBAPtz6nxFf9993fv/Zfip5KKdpVmA==
+"@vtex/test-tools@^3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@vtex/test-tools/-/test-tools-3.4.3.tgz#d0cc34c445410050b9b56f804236c7c07a242489"
+  integrity sha512-sBGnr9lIv2dFiZnkUWBdiuiE/GRcu7jSKYqcYQ7fD1o0VlacMIMxHQmz8Gv1NIic37QRgntbSBDrvUUNo94Iwg==
   dependencies:
     "@babel/core" "^7.11.1"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
@@ -1597,7 +1589,6 @@
     "@testing-library/jest-dom" "^5.11.2"
     "@testing-library/react" "^10.4.7"
     "@testing-library/react-hooks" "^3.4.1"
-    "@types/graphql" "^14.5.0"
     "@types/jest" "^26.0.8"
     "@types/node" "^14.0.27"
     "@types/react" "^16.9.44"
